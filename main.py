@@ -31,7 +31,7 @@ async def chat_hendler(message: types.Message):
     javob = chatgpt_answer(message.text)
     await message.answer(javob)
 
-
+print("salom")
 
 async def main():
     await dp.start_polling(bot)
